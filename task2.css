@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 10rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  
+  .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .sunrise {
+    background: #FFB6C1;
+  }
+  .sunrise .layer-1 {
+    background-image: url('http://getwallpapers.com/wallpaper/full/b/1/d/637025.jpg');
+    z-index: 1;
+  }
+  
+  .morning {
+    background: #87CEEB;
+  }
+  .morning .layer-1 {
+    background-image: url('https://images.hdqwalls.com/wallpapers/beautiful-morning-in-forest-4k-4l.jpg');
+    z-index: 1;
+  }
+  
+  .afternoon {
+    background: #4682B4;
+  }
+  .afternoon .layer-1 {
+    background-image: url('https://wallpapercave.com/wp/wp10220576.jpg');
+    z-index: 1;
+  }
+  
+  .evening {
+    background: #483D8B;
+  }
+  .evening .layer-1 {
+    background-image: url('https://www.baltana.com/files/wallpapers-5/Evening-Wallpaper-HD-16688.jpg');
+    z-index: 1;
+  }
+  
+  .night {
+    background: #191970;
+  }
+  .night .layer-1 {
+    background-image: url('https://images.hdqwalls.com/wallpapers/northern-lights-night-sky-mountains-landscape-4k-k8.jpg');
+    z-index: 1;
+  }
+  
