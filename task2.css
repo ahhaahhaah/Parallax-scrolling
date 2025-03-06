@@ -37,41 +37,26 @@
     background-repeat: no-repeat;
   }
   
-  .sunrise {
-    background: #ffffff;
-  }
   .sunrise .layer-1 {
     background-image: url('http://getwallpapers.com/wallpaper/full/b/1/d/637025.jpg');
     z-index: 1;
   }
   
-  .morning {
-    background: #87CEEB;
-  }
   .morning .layer-1 {
     background-image: url('https://images.hdqwalls.com/wallpapers/beautiful-morning-in-forest-4k-4l.jpg');
     z-index: 1;
   }
   
-  .afternoon {
-    background: #4682B4;
-  }
   .afternoon .layer-1 {
     background-image: url('https://wallpapercave.com/wp/wp10220576.jpg');
     z-index: 1;
   }
   
-  .evening {
-    background: #483D8B;
-  }
   .evening .layer-1 {
     background-image: url('https://www.baltana.com/files/wallpapers-5/Evening-Wallpaper-HD-16688.jpg');
     z-index: 1;
   }
   
-  .night {
-    background: #191970;
-  }
   .night .layer-1 {
     background-image: url('https://images.hdqwalls.com/wallpapers/northern-lights-night-sky-mountains-landscape-4k-k8.jpg');
     z-index: 1;
